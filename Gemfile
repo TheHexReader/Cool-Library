@@ -85,3 +85,5 @@ gem 'devise', '~> 4.8'
 
 gem 'rubocop', '~> 1.36'
 gem 'slim_lint', '~> 0.22.1'
+
+gem "faker", "~> 2.23"
