@@ -1,6 +1,13 @@
+[![XideSiteActions](https://github.com/TheHexReader/XideSite/actions/workflows/XideSiteActions.yml/badge.svg)](https://github.com/TheHexReader/XideSite/actions/workflows/XideSiteActions.yml)
+
 # README
 
-# Надо сделать что низу по списку на русском
+## Фаст зависимости
+
+- Node.js 16.17.1
+- Ruby 3.1.2
+
+---
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
