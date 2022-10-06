@@ -2,32 +2,17 @@
 
 # README
 
-## Фаст зависимости
+## Зависимости
 
-- Node.js 16.17.1
 - Ruby 3.1.2
+- Node.js 16.17.1
 
----
+## Для разварота проекта
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+1. Сколнируйте проект
+2. Установите зависимости
+3. Сделайте `bundle install`
+4. Сделайте `bundle exec rails db:migrate`
+5. Следайте `bundel exec rails s`
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Должно получитсься)))
