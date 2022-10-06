@@ -2,5 +2,7 @@
 
 # Home controller
 class HomeController < ApplicationController
-  def index; end
+  def index
+    @books = Book.all
+  end
 end
