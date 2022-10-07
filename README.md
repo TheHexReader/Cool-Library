@@ -1,4 +1,4 @@
-[![XideSiteActions](https://github.com/TheHexReader/XideSite/actions/workflows/XideSiteActions.yml/badge.svg)](https://github.com/TheHexReader/XideSite/actions/workflows/XideSiteActions.yml)
+[![CoolLibraryActions](https://github.com/TheHexReader/XideSite/actions/workflows/CoolLibraryActions.yml/badge.svg)](https://github.com/TheHexReader/XideSite/actions/workflows/CoolLibraryActions.yml)
 
 # README
 
