@@ -1,0 +1,6 @@
+- if page.current?
+  li.page-item.active
+    = content_tag :a, page, data: { remote: remote }, rel: page.rel, class: 'page-link bg-dark text-warning border-warning'
+- else
+  li.page-item
+    = link_to page, url, remote: remote, rel: page.rel, class: 'page-link bg-dark text-white'
