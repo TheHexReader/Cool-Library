@@ -285,7 +285,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   kaminari (~> 1.2)
-  pg
+  pg (~> 1.4)
   puma (~> 5.0)
   rails (~> 7.0.4)
   rubocop (~> 1.36)
