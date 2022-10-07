@@ -4,13 +4,13 @@ Status.create!(title: 'present')
 Status.create!(title: 'borrowed')
 Status.create!(title: 'lost')
 
-10.times do 
+500.times do 
   Author.create!(first_name: Faker::Name.first_name,
                 middle_name: Faker::Name.middle_name,
                 last_name: Faker::Name.last_name)
 end
 
-100.times do 
+5000.times do 
   Book.create!(title: Faker::Book.title,
                author_id: Author.all.sample[:id],
                status_id: 1,

@@ -6,6 +6,10 @@ nav.navbar.navbar-expand-md.navbar-dark.fixed-top.bg-dark
           = link_to 'Главная',
                     root_path,
                     class: 'nav-link text-decoration-none'
+        li.nav-item
+          = link_to '#УдарПоДмитрию',
+                    hit_dima_path,
+                    class: 'nav-link text-decoration-none'
         - if current_user.nil?
           li.nav-item
             = link_to 'Войти',
