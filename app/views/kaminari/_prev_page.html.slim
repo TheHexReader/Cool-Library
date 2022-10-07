@@ -1,2 +1,4 @@
 li.page-item
-  = link_to_unless current_page.first?, raw(`t 'views.pagination.previous'`), url, rel: 'prev', remote:, class: 'page-link bg-dark text-white'
+  - # rubocop:disable Style/NestedParenthesizedCalls
+  = link_to_unless current_page.first?, raw(t 'views.pagination.previous'), url, rel: 'prev', remote:, class: 'page-link bg-dark text-white'
+  - # rubocop:enable Style/NestedParenthesizedCalls
