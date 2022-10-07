@@ -1,2 +1,4 @@
 li.page-item.disabled
-  = link_to raw(`t 'views.pagination.truncate'`), '#', class: 'page-link bg-dark text-white'
+  - # rubocop:disable Style/NestedParenthesizedCalls
+  = link_to raw(t 'views.pagination.truncate'), '#', class: 'page-link bg-dark text-white'
+  - # rubocop:enable Style/NestedParenthesizedCalls
