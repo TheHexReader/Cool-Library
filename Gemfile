@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source 'https://rubygems.org'
-git_source(:github) { |repo| 'https://github.com/#{repo}.git' }
+git_source(:github) { |_repo| "https://github.com/#{repo}.git" }
 
 ruby '3.1.2'
 
@@ -74,9 +74,9 @@ gem 'rubocop', '~> 1.36'
 gem 'slim_lint', '~> 0.22.1'
 
 # This gem is a port of Perl's Data::Faker library that generates fake data [https://github.com/faker-ruby/faker]
-gem "faker", "~> 2.23"
+gem 'faker', '~> 2.23'
 
 group :production do
   # Pg is the Ruby interface to the PostgreSQL RDBMS [https://github.com/ged/ruby-pg]
-  gem "pg", "~> 1.4"
+  gem 'pg', '~> 1.4'
 end

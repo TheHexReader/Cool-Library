@@ -9,6 +9,6 @@ module HomeHelper
 
   def get_status_name(id)
     status = Status.find_by(id:)
-    "#{status.title}"
+    status.title.to_s
   end
 end
