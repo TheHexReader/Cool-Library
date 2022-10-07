@@ -1,4 +1,4 @@
-name: XideSiteActions
+name: CoolLibraryActions
 on: [push]
 
 jobs:
