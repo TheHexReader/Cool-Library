@@ -1,13 +1,14 @@
-h1
-  | Books
+.d-flex.justify-content-center.p-3.m-3
+  h1
+    | Класная библиотека
 
 table.table.table-striped.table-hover.mb-5
   thead
     tr
-      th{ scope: :col } = 'Название'
-      th{ scope: :col } = 'Автор'
+      th{ scope: :col } = 'Название книги'
+      th{ scope: :col } = 'Автор книги'
       th{ scope: :col } = 'Статус'
-      th{ scope: :col } = 'Год выхода'
+      th{ scope: :col } = 'Год выхода книги'
       th
 
   tbody
@@ -17,9 +18,8 @@ table.table.table-striped.table-hover.mb-5
         td = get_author_full_name(book.author_id)
         td = get_status_name(book.status_id)
         td = book.release_date
-        / td.d-flex
-          / .me-4 = link_to t('show'), book
-          / .me-4 = link_to t('edit'), edit_book_path(book)
+        td.d-flex
+          .me-4.btn.bg-dark = link_to 'Посмотреть', nil, { style: 'text-decoration: none;', class: 'text-white' }
           / = link_to t('destroy'), book, data: { confirm: t('destroy_confirmation') }, method: :delete
 
 / = paginate @books, theme: 'bootstrap-5'
