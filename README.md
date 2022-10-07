@@ -16,3 +16,12 @@
 5. Следайте `bundel exec rails s`
 
 Должно получитсься)))
+
+---
+
+## Доступ к сайту
+
+Сайт хостинга: https://cool-library-site.herokuapp.com/
+
+QR-CODE:
+![alt text](qr-code.png)
