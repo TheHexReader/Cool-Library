@@ -2,7 +2,7 @@
 
 require 'test_helper'
 
-class BookControllerTest < ActionDispatch::IntegrationTest
+class BooksControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

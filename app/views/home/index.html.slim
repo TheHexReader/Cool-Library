@@ -19,8 +19,7 @@ table.table.table-striped.table-hover.mb-5
         td = get_status_name(book.status_id)
         td = book.release_date
         td.d-flex
-          .me-4.btn.bg-dark = link_to 'Посмотреть', nil, { style: 'text-decoration: none;', class: 'text-white' }
-          / = link_to t('destroy'), book, data: { confirm: t('destroy_confirmation') }, method: :delete
+          .me-4.btn.bg-dark = link_to 'Посмотреть', book_path(book), { style: 'text-decoration: none;', class: 'text-white' }
 
 .d-flex.justify-content-center.p-3.m-3
   = paginate @books

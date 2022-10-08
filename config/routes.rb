@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  resource :books, only: %w[show]
+  resources :books, only: %w[show]
 
   get '/hit_dima', to: 'hit_dima#index'
   get '/hit_dima/punch', to: 'hit_dima#punch'
